@@ -197,7 +197,7 @@ a:active {
     }
 }
 
-@media (width: 690px- 999px) {
+@media (width:690px-999px) {
 
     .leogo-full-page {
         width: 100vw;
@@ -207,7 +207,7 @@ a:active {
 @media (min-width: 690px) {
 
     .leogo-contact-form {
-        border: none
+        border: none;
         padding: 20px;
         margin: 17px;
         margin-left: 5%;
