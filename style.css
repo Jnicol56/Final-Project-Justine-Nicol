@@ -1,0 +1,415 @@
+body {
+    background-color: #D5FAEF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+
+a:link { 
+    text-decoration: none; 
+    color: #C92D2D;  
+}
+a:visited { 
+    text-decoration: none; 
+    color: #C92D2D;
+}
+a:hover { 
+    text-decoration: none; 
+    color: #C92D2D;
+}
+a:active { 
+    text-decoration: none; 
+    color: #C92D2D;
+}
+
+.leogo-announcement-bar {
+    background: #D1D3B8;
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    padding: 10px;
+    margin-top: 0;
+    border: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.leogo-announcement {
+    justify-content: center;
+    align-items: center;
+}
+
+.leogo-nav {
+    border-bottom: solid black 2px;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
+}
+
+.leogo-logo {
+    display: flex;
+    width: 153px;
+    height: 57px;
+}
+
+/* .leogo-nav-items-left {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+} */
+
+/* .leogo-main-menu {
+    padding-right: 36px;
+} */
+
+/* .leogo-shop-dropdown {
+    list-style-type: none;
+}
+
+.leogo-account {
+    width: 28px;
+    height: 33px;
+}
+
+.leogo-favourites {
+    width: 30px;
+    height: 27px;
+}
+
+.leogo-cart {
+    width: 32px;
+    height: 31px;
+} */
+
+
+/* .leogo-nav-items-right {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-size: contain;
+    background-position: center center;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 1265px;
+
+} */
+
+
+.leogo-icon {
+    padding-right: 10px;
+}
+
+
+
+.leogo-hero-banner {
+    border-bottom: solid black 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.leogo-carousel {
+    height: 75vh;
+}
+
+/* .leogo-carousel-link {
+    color: whitesmoke;
+    text-decoration: none;
+    text-underline: none;
+} */
+/* .leogo-menu {
+    position: relative;
+    right: 1265px;
+    padding: 7px;
+} */
+
+.leogo-plp {
+    background-color: white;  
+    padding: 170px;
+}
+
+.leogo-product-image {
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 360px;
+    position: relative;
+    padding: 17px;
+} 
+
+.leogo-item {
+    padding: 25px;
+}
+
+.leogo-product-listing {
+    color: black;
+    text-emphasis: none;
+}
+
+.leogo-brand-name {
+    font-weight: bolder;
+}
+.leogo-product-name {
+    color: black;
+}
+
+.leogo-brands-list {
+    background-color: #D1D3B8;
+    height: 30%;
+    padding: 56px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+#navbarSupportedContent {
+    background-color: #D5FAEF;
+    border: 4px #D5FAEF solid;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+@media (max-width: 690px){
+    .leogo-brands-list {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        padding: 56px;
+    }
+
+    .leogp-plp {
+
+        padding: 17px;
+    }
+
+    .leogo-full-page {
+        width: 100vw;
+    }
+
+    .leogo-product-image {
+        background-size: 100%;
+    }
+}
+
+@media (width: 690px- 999px) {
+
+    .leogo-full-page {
+        width: 100vw;
+    }
+}
+
+@media (min-width: 690px) {
+
+    .leogo-contact-form {
+        border: none
+        padding: 20px;
+        margin: 17px;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-items: left;
+        align-items: left;
+    
+}
+
+#textarea {
+    height: 200px;
+    width: 300px;
+}
+}
+
+/* .leogo-brand-title {
+    position: absolute;
+    bottom: -1437px;
+    right: 300px;
+} */
+
+.leogo-brand-title {
+    color: white;
+    background-color: black;
+    border: 2px olive solid;
+    height: 45px;
+    padding: 4px;
+    text-indent: 2em;
+}
+
+.leogo-brand {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 65%;
+    width: 150px;
+    height: 150px; 
+    border-radius: 100px;
+    padding: 1px;
+}
+/* .leogo-brand span {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 22px;
+    padding-top: 2px;
+    margin: 0px 5px;
+    width: 220px;
+} */
+
+/* product-listings */
+
+.leogo-product-image-1 {
+    background-image: url(images/b.yellowtail-poppy-floral.png);
+}
+.leogo-product-image-2 {
+    background-image: url(images/omi-woods-nefertiti.png);
+}
+.leogo-product-image-3 {
+    background-image: url(images/hoibo-chartruese.png);
+}
+.leogo-product-image-4 {
+    background-image: url(images/ai-mini-knit.png);
+}
+.leogo-product-image-5 {
+    background-image: url(images/indigo-arrows-bezhig.png);
+}
+.leogo-product-image-6 {
+    background-image: url(images/Santa-isla-cosmis-balance.png);
+}
+.leogo-product-image-7 {
+    background-image: url(images/byellowtail-notebook.png);
+}
+.leogo-product-image-8 {
+    background-image: url(images/omi-woods-classic-bamboo.png);
+}
+.leogo-product-image-9 {
+    background-image: url(images/hoibo-paperclutch.png);
+}
+
+/* leogo-brand-listings */
+
+.leogo-by-logo {
+    background-image: url(images/BY-logo.png);
+}
+.leogo-ow-logo {
+    background-image: url(images/OW-logo.png);
+}
+.leogo-hb-logo {
+    background-image: url(images/HB-logo.png);
+}
+.leogo-ia-logo {
+    background-image: url(images/ai-logo.png);
+}
+.leogo-ai-logo {
+    background-image: url(images/IA-logo.png);
+}
+.leogo-si-logo {
+    background-image: url(images/SI-logo.png);
+}
+
+.leogo-footer {
+    max-height: 45px;
+
+}
+
+/* Leogo contact page */
+
+.leogo-contact-page {
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leogo-contact-form {
+    border: 2px black solid;
+    padding: 20px;
+    margin: 17px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    align-items: left;
+}
+#textarea {
+    height: 200px;
+    width: 47vw;
+}
+
+@media (max-width: 1600px) {
+    #textarea {
+        height: 200px;
+        width: 40vw;
+    }
+}
+textarea:focus {
+    outline: none;
+  }
+
+select input button {
+    padding: 10px;
+    width: 10vw;
+}
+
+legend {
+    display: flex;
+    justify-content: center;
+}
+
+/* about page */
+.leogo-body-text {
+
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-bottom: 10%;
+    padding: 0%;
+    display: inline-block;
+}
+
+.leogo-about-image {
+    background-image: url(images/Leogo_AboutUs_image.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 375px;
+    margin: 17px;
+    margin-bottom: 0%;
+    float: left;
+    position: relative;
+    top: 30px;
+    left: -15px;
+
+}
+
+@media (max-width: 780px) {
+    .leogo-body-text {
+        margin-top: 4%;
+        margin-left: 10%;
+        margin-right: 15%;
+        margin-bottom: 7%;
+        display: flex;
+        flex-direction: column;
+    }
+    .leogo-about-image {
+        height: 450px;
+        width: 375px;
+        float: none;
+        position: unset;
+    }
+}
+
+
+#about-link {
+    text-decoration-color: olive;
+}
+
+.leogo-about-blurb {
+    text-align: left;
+}
+
