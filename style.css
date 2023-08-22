@@ -21,10 +21,6 @@ a:active {
     color: #C92D2D;
 }
 
-a:focus {
-    outline:white;
-  }
-
 .leogo-announcement-bar {
     background: #D1D3B8;
     display: flex;
